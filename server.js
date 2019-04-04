@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require('express')
 
 const app = express()
 
 app.get('/', function (req, res) {
-	res.send('chatbot-nodejs-heroku-starter');
+	res.send('chatbot-nodejs-heroku-starter')
 })
 
 app.set('port', (process.env.PORT || 4000))
